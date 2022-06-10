@@ -10,10 +10,10 @@ conda env create -f environment.yml
 conda activate mimic_helper
 ```
 
-All the scripts are contained in the `script` folder and present a help fuction, providing a brief description and the input needed.
+All the scripts are contained in the `script` folder and present a help function, providing a brief description and the input needed.
 This can be accessed via
 ```
-python3 script_name.pi -h
+python3 script_name.py -h
 ```
 The scripts accept positional and optional arguments, to be specified via the command line. 
 
